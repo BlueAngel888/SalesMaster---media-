@@ -9,5 +9,8 @@
 - Backgrounds: a NEW set every 3 clips (every day), black & white, famous luxury brands:
   Rolls-Royce, Lamborghini, Ferrari, Bentley, Rolex, Richard Mille, Patek Philippe, villas with pools,
   private jets, yachts. Model: bytedance-seedream-5-lite (~$0.04/image), ~8 images per day, 16:9.
+- Background budget: new sets only until clip 12 (sets: bg_lux for clips 1-6, bg_day03 for clips 7-9,
+  bg_day04 for clips 10-12). From clip 13 on, generate NOTHING new: rotate the existing sets in order,
+  one set per day (bg_lux first half, bg_lux second half, bg_day03, bg_day04, then repeat).
 - Never promise income. Never use the names eduKiwi, Doru, Pera, Hobby 2 Profit, H2P.
 - Beacons store: https://beacons.ai/sales_master ($29). Instagram: salesmaster898. TikTok: salsemaster.
