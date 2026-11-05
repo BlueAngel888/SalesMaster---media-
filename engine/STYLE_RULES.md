@@ -1,0 +1,13 @@
+# Sales Master clip rules (agreed with the owner, keep for every future day)
+
+- 3 clips per day, English, voice "Adam - Dominant, Firm" (eGSd0uV8dNQnZuEEX9lu), eleven_v4, 1 take, sped up 1.25x.
+- On-screen text = exactly the spoken words, word by word, from ElevenLabs word timings. No extra captions.
+- Gold 3D "BUY NOW · $29 / LINK IN BIO!" at the bottom on every clip (engine/cta_gold.png).
+- NO music in the delivered clips (owner adds trending sounds inside TikTok).
+- NO automatic posting via Buffer. Deliver clips in chat; owner posts to TikTok, then Instagram and YouTube.
+- Under every delivered clip: the TikTok description with hashtags (plus YouTube title).
+- Backgrounds: a NEW set every 3 clips (every day), black & white, famous luxury brands:
+  Rolls-Royce, Lamborghini, Ferrari, Bentley, Rolex, Richard Mille, Patek Philippe, villas with pools,
+  private jets, yachts. Model: bytedance-seedream-5-lite (~$0.04/image), ~8 images per day, 16:9.
+- Never promise income. Never use the names eduKiwi, Doru, Pera, Hobby 2 Profit, H2P.
+- Beacons store: https://beacons.ai/sales_master ($29). Instagram: salesmaster898. TikTok: salsemaster.
