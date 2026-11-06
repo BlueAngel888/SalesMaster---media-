@@ -5,7 +5,15 @@
 - Gold 3D "BUY NOW · $29 / LINK IN BIO!" at the bottom on every clip (engine/cta_gold.png).
 - NO music in the delivered clips (owner adds trending sounds inside TikTok).
 - NO automatic posting via Buffer. Deliver clips in chat; owner posts to TikTok, then Instagram and YouTube.
-- Under every delivered clip: the TikTok description with hashtags (plus YouTube title).
+- Under every delivered clip, a full pack for all 3 platforms (also saved as DayN_captions.txt in the owner's Mac "Claude Folder"):
+  - TikTok: keyword-first caption (searchable phrase in the first line) + MAX 5 hashtags (TikTok cap since Aug 2025).
+  - YouTube Shorts: viral title <=70 chars, keyword in the first 40, no hashtags in the title; description with
+    keyword hook line + link line + 3 hashtags (the first 3 show above the title); tags field <=500 chars.
+  - Instagram Reels: keyword-first caption (first 125 chars visible) + MAX 5 hashtags (more = reach penalty).
+  - Hashtag mix: 1 broad (#sales/#business), 2 niche (#salestips #closing...), 1 audience (#entrepreneur/#sidehustle),
+    1 discovery (#learnontiktok on TT, #shorts on YT). Keep #salesmaster as the branded one where room allows.
+  - Viral hooks: curiosity / "stop doing X" / mistake framing / numbers. Never promise income.
+  - Re-check platform hashtag rules with a web search before changing this format.
 - Backgrounds: a NEW set every 3 clips (every day), black & white, famous luxury brands:
   Rolls-Royce, Lamborghini, Ferrari, Bentley, Rolex, Richard Mille, Patek Philippe, villas with pools,
   private jets, yachts. Model: bytedance-seedream-5-lite (~$0.04/image), ~8 images per day, 16:9.
