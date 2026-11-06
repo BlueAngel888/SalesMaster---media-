@@ -3,7 +3,7 @@ usage: python3 daily.py render dayNN clipA clipB ...   |   python3 daily.py voic
 import sys, os, glob, subprocess, importlib
 sys.path.insert(0, "/home/claude/tiktok")
 import lux
-lux.KEYWORDS |= {"PRICE", "EXPENSIVE", "THEMSELVES", "RESULT", "PRODUCTS", "WHICH", "IF", "YES", "CLOSE", "ALTERNATIVE", "CANDLE", "FIFTY"}
+lux.KEYWORDS |= {"PRICE", "EXPENSIVE", "THEMSELVES", "RESULT", "PRODUCTS", "WHICH", "IF", "YES", "CLOSE", "ALTERNATIVE", "CANDLE", "FIFTY", "DOUBT", "RISK", "REFERRAL", "PROOF", "LOVE", "WEEKEND", "MARKET", "HELP", "FEAR", "PROBLEM", "THAT"}
 BG = sorted(glob.glob("/home/claude/tiktok/bg_lux/*.jpg"))
 CTA = "/home/claude/tiktok/cta_gold.png"
 
