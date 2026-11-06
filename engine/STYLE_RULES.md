@@ -28,3 +28,4 @@
     Day4_clip10_JESSICA.mp3 (ElevenLabs always names downloads content.mp3).
 - Dialogue format (two voices) available: engine/dialogue.py + dlg_<name>.py. Customer = Jessica
   (cgSgspJ2msm6clMCkdW9, white text, CUSTOMER tag), closer = Adam (gold text, CLOSER tag), lesson to camera at the end.
+- Layout: text centre CY=790 and gold CTA at y 1167-1379 (moved up 250 px) so nothing sits under TikTok's bottom caption/username UI.

@@ -10,7 +10,7 @@ FONT = "/usr/share/fonts/opentype/inter/InterDisplay-Black.otf"
 WHITE = (245, 245, 240); GOLD = (236, 196, 44)
 SQUEEZE = 0.74          # horizontal squeeze -> condensed poster look
 MAXW = 900              # text column width
-CY = 960                # vertical centre of the caption block
+CY = 790                # vertical centre of the caption block (kept clear of TikTok bottom UI)
 LEAD = 0.06             # word appears a hair before it is heard
 
 KEYWORDS = {"MONEY", "RICH", "SELLING", "SELL", "SELLS", "SOLD", "SALES", "SALE", "PRICE", "JOB", "JOBS",
@@ -97,7 +97,7 @@ def draw_chunk(frame, ch, t):
 
 # ---------------- background ----------------
 BAND_H = 700            # height of the cinematic picture band
-BAND_Y = (H - BAND_H) // 2
+BAND_Y = CY - BAND_H // 2
 
 def prep_bg(path):
     """Wide image -> band (BAND_H tall, with room to zoom) plus a dim blurred fill for the rest of the frame."""
