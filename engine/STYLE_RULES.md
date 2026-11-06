@@ -22,3 +22,9 @@
   one set per day (bg_lux first half, bg_lux second half, bg_day03, bg_day04, then repeat).
 - Never promise income. Never use the names eduKiwi, Doru, Pera, Hobby 2 Profit, H2P.
 - Beacons store: https://beacons.ai/sales_master ($29). Instagram: salesmaster898. TikTok: salsemaster.
+- File names must be specific and easy to recognise (owner request):
+  - delivered clips: DayN_clipNN_<topic>.mp4, captions: DayN_captions.txt
+  - voice downloads: in the message, give each link with the name to save it as, e.g. Day4_clip10_ADAM.mp3 /
+    Day4_clip10_JESSICA.mp3 (ElevenLabs always names downloads content.mp3).
+- Dialogue format (two voices) available: engine/dialogue.py + dlg_<name>.py. Customer = Jessica
+  (cgSgspJ2msm6clMCkdW9, white text, CUSTOMER tag), closer = Adam (gold text, CLOSER tag), lesson to camera at the end.
