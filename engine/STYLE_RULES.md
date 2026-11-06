@@ -29,3 +29,10 @@
 - Dialogue format (two voices) available: engine/dialogue.py + dlg_<name>.py. Customer = Jessica
   (cgSgspJ2msm6clMCkdW9, white text, CUSTOMER tag), closer = Adam (gold text, CLOSER tag), lesson to camera at the end.
 - Layout: text centre CY=720 (owner: "a bit higher") and gold CTA at y 1167-1379 (moved up 250 px) so nothing sits under TikTok's bottom caption/username UI.
+- Posting (owner, 6 Nov 2026): post via Buffer (TikTok + YouTube; Instagram when connected), 3 clips/day, at the
+  most-viewed times, audience US -> America/New_York. Use a few minutes off the hour.
+  TikTok (Buffer 2026, 7M posts): Mon 1pm/11am/8am · Tue 6am/10pm/7am · Wed 10pm/6am/9pm · Thu 1pm/10pm/6am ·
+  Fri 6pm/10pm/8pm · Sat 5pm/4pm/3pm · Sun 9am/1pm/12pm.
+  YouTube Shorts (Hopper 2026): Mon 11am-1pm & 6-9pm · Tue 11am-12pm · Wed 12-2pm & 7-9pm · Thu 12-3pm & 6-8pm ·
+  Fri 11am-1pm · Sat 2-5pm · Sun 5-8pm.
+  Clips are published from public raw URLs in clips/ of this repo. Buffer free plan: max 10 scheduled posts at once.
