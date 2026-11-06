@@ -10,7 +10,7 @@ FONT = "/usr/share/fonts/opentype/inter/InterDisplay-Black.otf"
 WHITE = (245, 245, 240); GOLD = (236, 196, 44)
 SQUEEZE = 0.74          # horizontal squeeze -> condensed poster look
 MAXW = 900              # text column width
-CY = 790                # vertical centre of the caption block (kept clear of TikTok bottom UI)
+CY = 720                # vertical centre of the caption block (kept clear of TikTok bottom UI)
 LEAD = 0.06             # word appears a hair before it is heard
 
 KEYWORDS = {"MONEY", "RICH", "SELLING", "SELL", "SELLS", "SOLD", "SALES", "SALE", "PRICE", "JOB", "JOBS",
