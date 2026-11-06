@@ -59,10 +59,10 @@ Public URL: `https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-
 (verify with `gh api repos/BlueAngel888/SalesMaster---media-/contents/clips/<file>.mp4 --jq .size`).
 
 ## 6. Schedule in Buffer
-Org `6aebe3cacd3a1b8f70a4d89b`. Call `list_channels` (Instagram may appear later). TikTok
-`6aebe4bee29c69a17167ef79`, YouTube `6aebe43fe29c69a17167e720`. `mode: customScheduled`, `schedulingType:
+Org `6aebe3cacd3a1b8f70a4d89b`. TikTok `6aebe4bee29c69a17167ef79`, YouTube `6aebe43fe29c69a17167e720`,
+Instagram (business) `6aed79c1e29c69a1717da5ff`. `mode: customScheduled`, `schedulingType:
 automatic`, `isAiGenerated: true`. YouTube: `categoryId "27"`, privacy public, madeForKids false, title ≤70
-chars. Instagram (if listed): type reel, shouldShareToFeed true. Skip any slot already in the past; use the
+chars. Instagram: type reel, shouldShareToFeed true, isAiGenerated true. Skip any slot already in the past; use the
 next free slot later that day.
 
 Slots (ET), dialogue clips get the 1st and 3rd slot:
@@ -76,6 +76,16 @@ Slots (ET), dialogue clips get the 1st and 3rd slot:
 | Fri | 18:07 · 19:13 · 20:07 · 22:07 | 11:07 · 11:47 · 12:23 · 12:52 |
 | Sat | 15:07 · 16:07 · 17:07 · 20:47 | 14:07 · 15:13 · 16:07 · 16:52 |
 | Sun | 09:07 · 12:07 · 13:07 · 19:47 | 17:07 · 18:13 · 19:07 · 19:52 |
+
+Instagram Reels (Buffer 2026 data, ET):
+Mon 18:07 · 19:07 · 20:07 · 21:13 — Tue 15:07 · 17:07 · 19:07 · 20:13 — Wed 08:07 · 12:07 · 18:07 · 20:07 —
+Thu 07:07 · 08:07 · 09:07 · 19:13 — Fri 06:07 · 20:13 · 21:07 · 22:07 — Sat 20:07 · 21:07 · 22:07 · 22:43 —
+Sun 20:07 · 21:07 · 22:07 · 22:43
+
+**Buffer free plan = max 10 scheduled posts at once.** 4 clips x 3 platforms = 12. Schedule in this order until
+Buffer refuses: all TikTok, then all Instagram, then YouTube. For anything that did not fit, put the file link +
+captions in the final message so the owner can post it himself (or it gets picked up on the next run if there
+is room). Never delete or change posts the owner created.
 
 Captions per STYLE_RULES (TikTok max 5 hashtags; YouTube 3 hashtags in description + title; Instagram max 5).
 Also write `clips/DayN_captions.txt` with the TikTok / YouTube (title, description, tags) / Instagram packs.
