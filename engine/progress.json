@@ -3,5 +3,9 @@
   "next_clip": 10,
   "used_topic_ids": [],
   "bg_day04_generated": false,
-  "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10."
+  "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10.",
+  "last_run": {
+    "date": "2026-11-07",
+    "result": "blocked: ElevenLabs subscription has a failed/incomplete payment; no voices, no clips, nothing scheduled. Scripts saved in engine/scripts/day04_pending.json; Day 4 not consumed."
+  }
 }
