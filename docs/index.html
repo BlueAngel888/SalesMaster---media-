@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Can You Close This Deal? · Sales Master</title>
+<meta name="description" content="8 real sales calls. Pick what you'd say. Find out what kind of closer you are, with a free AI sales coach.">
+<meta property="og:title" content="Can You Close This Deal?">
+<meta property="og:description" content="8 real sales calls. Find out what kind of closer you are.">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0b0b; --surface:#151513; --surface2:#1d1c18; --line:#2c2a22;
+  --fg:#f5f5f0; --muted:#a19d90; --gold:#ecc42c; --gold2:#b8901a; --ink:#111;
+  --good:#5fd39a; --good-bg:#11271c; --bad:#ff7a66; --bad-bg:#2c1512;
+  --display:"Inter Tight",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55;
+  background-image:radial-gradient(ellipse 80% 50% at 50% -10%,rgba(236,196,44,.14),transparent 60%);min-height:100vh}
+.wrap{max-width:640px;margin:0 auto;padding:20px 16px 140px}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px}
+.logo{font-family:var(--display);font-weight:900;letter-spacing:.02em;font-size:15px;text-transform:uppercase}
+.logo b{color:var(--gold)}
+.pill{font-size:12px;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:5px 11px}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(40px,11vw,64px);line-height:.95;letter-spacing:-.02em;margin:0 0 16px;text-transform:uppercase}
+h1 em{font-style:normal;color:var(--gold)}
+.lede{color:var(--muted);font-size:18px;margin:0 0 26px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px;padding:0;list-style:none}
+.facts li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600}
+.facts li span{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;border:0;border-radius:14px;
+  background:linear-gradient(180deg,#f6d453,var(--gold) 55%,#d4a91e);color:var(--ink);font-family:var(--display);font-weight:900;
+  font-size:20px;letter-spacing:.02em;text-transform:uppercase;padding:18px 20px;cursor:pointer;text-decoration:none;
+  box-shadow:0 10px 30px rgba(236,196,44,.25),inset 0 1px 0 rgba(255,255,255,.5)}
+.btn:active{transform:translateY(1px)}
+.btn[disabled]{opacity:.35;box-shadow:none;cursor:default}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line);box-shadow:none;font-size:16px}
+.coach-note{display:flex;gap:12px;align-items:flex-start;margin-top:22px;padding:14px;border:1px dashed #4a4127;border-radius:14px;color:var(--muted);font-size:15px}
+.orb{flex:none;width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff3b0,var(--gold) 45%,#7a5c10)}
+.coach-note b{color:var(--fg)}
+/* quiz */
+.bar{height:6px;background:var(--surface2);border-radius:9px;overflow:hidden;margin-bottom:22px}
+.bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .35s}
+.ctx{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.q{font-family:var(--display);font-weight:800;font-size:clamp(23px,6vw,30px);line-height:1.15;margin:0 0 22px}
+.opts{display:grid;gap:10px}
+.opt{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:15px 16px;color:var(--fg);
+  font:inherit;font-size:16px;cursor:pointer;display:flex;gap:12px;align-items:flex-start;transition:border-color .15s,background .15s}
+.opt:hover{border-color:#5a5232}
+.opt .k{flex:none;width:26px;height:26px;border-radius:8px;background:var(--surface2);display:grid;place-items:center;font-weight:700;font-size:13px;color:var(--muted)}
+.opt.good{border-color:var(--good);background:var(--good-bg)} .opt.good .k{background:var(--good);color:#06150d}
+.opt.bad{border-color:var(--bad);background:var(--bad-bg)} .opt.bad .k{background:var(--bad);color:#2a0b06}
+.opt[disabled]{cursor:default}
+.fb{margin:16px 0 18px;padding:15px 16px;border-radius:14px;background:var(--surface);border-left:4px solid var(--gold);font-size:16px}
+.fb strong{display:block;font-family:var(--display);font-size:18px;margin-bottom:4px}
+.fb small{display:block;color:var(--muted);margin-top:8px;font-size:14px}
+/* result */
+.score{font-family:var(--display);font-weight:900;font-size:88px;line-height:1;color:var(--gold);margin:6px 0 2px}
+.type{font-family:var(--display);font-weight:900;font-size:clamp(32px,9vw,46px);text-transform:uppercase;line-height:1;margin:0 0 12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;margin:22px 0}
+.card h3{font-family:var(--display);font-weight:800;font-size:22px;margin:0 0 10px}
+.card ul{margin:0;padding-left:20px;color:var(--muted)} .card li{margin:4px 0} .card li b{color:var(--fg)}
+.price{display:flex;align-items:baseline;gap:10px;margin:4px 0 14px}
+.price b{font-family:var(--display);font-weight:900;font-size:44px;color:var(--gold)}
+.price span{color:var(--muted);font-size:15px}
+.miss{font-size:15px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:10px}
+.miss b{color:var(--fg)}
+.fine{color:#6f6b60;font-size:12.5px;margin-top:26px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand"><div class="logo">Sales <b>Master</b></div><div class="pill" id="pill">Free · 2 min</div></div>
+
+  <!-- START -->
+  <section id="start">
+    <h1>Can you <em>close</em> this deal?</h1>
+    <p class="lede">8 real sales calls. The prospect says something. You pick what you'd say next. Find out what kind of closer you really are.</p>
+    <ul class="facts">
+      <li><span>8</span> real call situations</li>
+      <li><span>2</span> minutes</li>
+      <li>Free <span>AI coach</span></li>
+    </ul>
+    <button class="btn" id="go">Start the test →</button>
+    <div class="coach-note"><div class="orb"></div><div><b>Stuck on a call?</b> Tap the gold button at the bottom right to talk to Coach Adam, your AI sales coach. Ask for a hint or ask why an answer is right.</div></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" hidden>
+    <div class="bar"><i id="barfill"></i></div>
+    <div class="ctx" id="ctx"></div>
+    <h2 class="q" id="q"></h2>
+    <div class="opts" id="opts"></div>
+    <div class="fb" id="fb" hidden></div>
+    <button class="btn" id="next" hidden>Next call →</button>
+  </section>
+
+  <!-- RESULT -->
+  <section id="result" hidden>
+    <div class="ctx">Your result</div>
+    <div class="score" id="score"></div>
+    <div class="type" id="type"></div>
+    <p class="lede" id="desc"></p>
+    <div id="missed"></div>
+
+    <div class="card">
+      <h3>Get the full closing system</h3>
+      <div class="price"><b>$29</b><span>one-time · instant access</span></div>
+      <ul>
+        <li><b>24 short lessons</b>, from the first call to the signed deal</li>
+        <li><b>140 quiz questions</b> + all <b>16 call scenarios</b> with answers</li>
+        <li>The <b>1-to-1 sales script</b>, objection handling and offer loops</li>
+        <li>Printable workbook + <b>interactive app</b> + worksheets</li>
+      </ul>
+      <p style="margin:16px 0 0"><a class="btn" id="buy" href="https://shop.beacons.ai/sales_master/ea8d707c-efa8-40f0-904f-6d95304cf921" target="_blank" rel="noopener">Get Sales Master →</a></p>
+    </div>
+    <button class="btn ghost" id="again">Retake the test</button>
+    <div class="coach-note"><div class="orb"></div><div><b>Want to know what you got wrong?</b> Ask Coach Adam (bottom right). He'll explain any call in 30 seconds.</div></div>
+    <p class="fine">Results in sales depend on your offer, your market and the work you put in. No income or closing rate is promised. Coach Adam is an AI; conversations are limited to 3 minutes.</p>
+  </section>
+</main>
+
+<elevenlabs-convai agent-id="agent_9401m6qv3wj6evatf3zhh2p9cgpx"></elevenlabs-convai>
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+<script>
+const CALLS = [
+ {ctx:"First call · cold lead", q:"The lead only answers “yes”, “no”, “ok”. What do you say?",
+  o:["“I notice you're giving short answers. I called to see if I can help. Is now a bad time?”","“Great, let's just book the meeting then, so I don't take up your time.”","“Let me quickly tell you what we offer, maybe part of it interests you.”","“I understand. I'll call you next week, maybe you'll feel more like it.”"],
+  e:"Break the pattern calmly and show good intent. Never force a cold person into a booking.", tag:"breaking a cold pattern"},
+ {ctx:"Meeting · first minutes", q:"The prospect starts telling you, at length, about their holiday. What do you do?",
+  o:["Stay polite for a moment, then steer back to your questions","Let them talk, that's how rapport is built","Tell them about your own holiday","Interrupt and say time is short"],
+  e:"Too much small talk puts you in the friend zone. Be warm, then redirect politely.", tag:"keeping control of the call"},
+ {ctx:"Meeting · timing", q:"You ask when they want to start. They say: “Maybe in 3–4 months.” What do you do?",
+  o:["Explain it doesn't make sense to continue today, and they come back when ready","Present the offer anyway so they have it in mind","Give a discount so they start this month","Send the payment link for them to use later"],
+  e:"They'd forget everything by then, and the in-meeting offer is one-time only. If they change their mind and want to start now, go ahead.", tag:"qualifying timing"},
+ {ctx:"Meeting · mid-pitch", q:"Halfway through your plan: “Yes, yes, I get it. Just tell me how much it costs.”",
+  o:["“To really help you, I want the core ideas to be clear first. Two more minutes.”","“OK, it's $3,000.”","“You'll only find out the price at the end, that's the procedure.”","“I'll send you the price on WhatsApp after the meeting.”"],
+  e:"Don't give the price before they buy into the plan. Explain why. People appreciate it and follow you.", tag:"when to reveal the price"},
+ {ctx:"Meeting · the price", q:"You've stated the price. Twenty seconds of silence have passed. What do you do?",
+  o:["Stay silent and wait for them to speak","Explain why the price is fair","Immediately offer instalments","Ask whether it's too expensive"],
+  e:"Strategic silence can last minutes. If you speak first, you're over-selling.", tag:"strategic silence"},
+ {ctx:"Meeting · objection", q:"“I need to talk to my wife first.” What's the best answer?",
+  o:["“I understand. And if your wife agreed, is there anything else that would stop you?”","“Call her now, I'll wait.”","“OK, think about it and come back when you've talked.”","“Your wife shouldn't decide for you.”"],
+  e:"Collect all the objections first, then solve them together. (Best case: the decision-makers are in the meeting from the start.)", tag:"uncovering hidden objections"},
+ {ctx:"Meeting · the close", q:"They have no objections left, but they still won't decide. What do you try?",
+  o:["A pattern interrupt: “I'm starting to doubt this is right for you. Did I misunderstand something?”","Another discount to convince them","Repeat the whole pitch from the start","End the call and wait for them to come back"],
+  e:"Something broke in the communication. A pattern interrupt is your last chance to find out what.", tag:"the pattern interrupt"},
+ {ctx:"Meeting · payment plan", q:"They ask for 4 instalments because 3 aren't enough. What's the right move?",
+  o:["Agree, but ask for a case study and 2 referrals in return","Agree right away, no conditions","Refuse, to protect your status","Give 4 instalments and an extra discount"],
+  e:"When you give something, ask for something back. That's an offer loop, not market-stall haggling.", tag:"offer loops"}
+];
+const TYPES = [
+ {min:8, t:"The Sales Master", d:"Perfect score. You read every situation like a pro. The full system will sharpen your scripts and give you the exact words for every step of the call."},
+ {min:6, t:"The Closer", d:"Strong instincts. You'd close most of these deals. A few gaps in the moments that decide the sale are what separate you from the top."},
+ {min:4, t:"The Hustler", d:"You've got the drive, but some of your instincts are costing you deals, usually at the price, the silence or the objection."},
+ {min:0, t:"The Pitcher", d:"Right now you're pitching, not closing. Good news: closing is a skill, not a talent. Once you know the steps, these calls get much easier."}
+];
+const $ = id => document.getElementById(id);
+let order = [], i = 0, score = 0, missed = [], picked = false;
+
+function shuffle(a){ a = a.slice(); for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1)); [a[k],a[j]]=[a[j],a[k]];} return a; }
+function show(id){ for(const s of ["start","quiz","result"]) $(s).hidden = s!==id; window.scrollTo({top:0,behavior:"smooth"}); }
+function track(name, data){ try{ if(window.gtag) gtag("event", name, data||{}); }catch(e){} }
+
+function start(){
+  order = CALLS.map((c,n)=>({...c, n, opts: shuffle(c.o.map((t,k)=>({t, ok:k===0})))}));
+  i = 0; score = 0; missed = []; show("quiz"); render(); track("quiz_start");
+}
+function render(){
+  const c = order[i]; picked = false;
+  $("pill").textContent = `Call ${i+1} of ${order.length}`;
+  $("barfill").style.width = (i/order.length*100)+"%";
+  $("ctx").textContent = c.ctx; $("q").textContent = c.q;
+  $("fb").hidden = true; $("next").hidden = true;
+  const box = $("opts"); box.innerHTML = "";
+  c.opts.forEach((o,k)=>{
+    const b = document.createElement("button"); b.className = "opt";
+    b.innerHTML = `<span class="k">${"ABCD"[k]}</span><span></span>`; b.lastChild.textContent = o.t;
+    b.onclick = () => pick(b, o); box.appendChild(b);
+  });
+}
+function pick(btn, o){
+  if(picked) return; picked = true;
+  const c = order[i];
+  [...$("opts").children].forEach((b,k)=>{ b.disabled = true; if(c.opts[k].ok) b.classList.add("good"); });
+  if(o.ok){ score++; } else { btn.classList.add("bad"); missed.push(c.tag); }
+  $("fb").innerHTML = `<strong>${o.ok ? "Closed it. ✅" : "Deal lost. ❌"}</strong><span></span><small>Not sure why? Ask Coach Adam, bottom right.</small>`;
+  $("fb").children[1].textContent = c.e; $("fb").hidden = false;
+  $("next").textContent = i+1 < order.length ? "Next call →" : "See my result →"; $("next").hidden = false;
+  $("barfill").style.width = ((i+1)/order.length*100)+"%";
+}
+function next(){ i++; if(i < order.length) { render(); window.scrollTo({top:0,behavior:"smooth"}); } else finish(); }
+function finish(){
+  const ty = TYPES.find(t => score >= t.min);
+  $("pill").textContent = "Done";
+  $("score").textContent = `${score}/8`; $("type").textContent = ty.t; $("desc").textContent = ty.d;
+  $("missed").innerHTML = missed.length ? `<div class="miss"><b>Where you lost deals:</b> <span></span></div>` : "";
+  if(missed.length) $("missed").querySelector("span").textContent = missed.join(" · ");
+  try{ localStorage.setItem("sm_quiz_last", JSON.stringify({score, t:Date.now()})); }catch(e){}
+  show("result"); track("quiz_done", {score});
+}
+$("go").onclick = start; $("next").onclick = next; $("again").onclick = start;
+$("buy").onclick = () => track("buy_click");
+</script>
+</body>
+</html>
