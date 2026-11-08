@@ -14,6 +14,8 @@ ls /usr/share/fonts/opentype/inter/InterDisplay-Black.otf   # font must exist (a
 Read `engine/progress.json` (day number, next clip number, used topics).
 
 ## 1. Pick topics
+If `engine/scripts/day{NN}_pending.json` exists for the current day (left by a blocked run), reuse those scripts
+instead of writing new ones, then delete the file in the same commit as the finished clips.
 From `engine/topics.json` take the first 2 unused `dialog` and first 2 unused `solo` topics. If fewer remain,
 write new ones in the same style from the 24 lesson titles (lessons 1–24, see topics) and append them.
 
