@@ -12,6 +12,8 @@ cp -r $R/engine/* /home/claude/tiktok/
 ls /usr/share/fonts/opentype/inter/InterDisplay-Black.otf   # font must exist (apt-get install fonts-inter if not)
 ```
 Read `engine/progress.json` (day number, next clip number, used topics).
+**If `progress.json` has `last_run.covers_date` equal to today's date in America/New_York and `last_run.result`
+starts with "done", today's clips are already made: stop and send no message.**
 
 ## 1. Pick topics
 If `engine/scripts/day{NN}_pending.json` exists for the current day (left by a blocked run), reuse those scripts
