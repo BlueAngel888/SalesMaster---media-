@@ -1,11 +1,17 @@
 {
-  "next_day": 4,
-  "next_clip": 10,
-  "used_topic_ids": [],
-  "bg_day04_generated": false,
+  "next_day": 5,
+  "next_clip": 14,
+  "used_topic_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "bg_day04_generated": true,
   "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10.",
   "last_run": {
-    "date": "2026-11-07",
-    "result": "blocked: ElevenLabs subscription has a failed/incomplete payment; no voices, no clips, nothing scheduled. Scripts saved in engine/scripts/day04_pending.json; Day 4 not consumed."
+    "date": "2026-11-08",
+    "covers_date": "2026-11-08",
+    "result": "done: Day 4 clips 10-13 rendered with voice (reused day04_pending scripts), bg_day04 generated (Richard Mille image blocked by ElevenLabs ToS filter, replaced with Ferrari). Buffer: TikTok x4 + Instagram x4 + YouTube x2 (clips 10,11); YouTube for clips 12,13 left for the owner (10-post limit)."
   }
 }

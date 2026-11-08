@@ -12,6 +12,8 @@ cp -r $R/engine/* /home/claude/tiktok/
 ls /usr/share/fonts/opentype/inter/InterDisplay-Black.otf   # font must exist (apt-get install fonts-inter if not)
 ```
 Read `engine/progress.json` (day number, next clip number, used topics).
+**Target day:** the routine fires around 23:20 ET, when that evening's slots are gone, so if the ET time is 20:00 or later the
+clips are for the NEXT ET day (use that day's slots and that date as "today"/`covers_date`).
 **If `progress.json` has `last_run.covers_date` equal to today's date in America/New_York and `last_run.result`
 starts with "done", today's clips are already made: stop and send no message.**
 
