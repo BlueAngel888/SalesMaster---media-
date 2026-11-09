@@ -1,17 +1,21 @@
 {
-  "next_day": 5,
-  "next_clip": 14,
+  "next_day": 6,
+  "next_clip": 18,
   "used_topic_ids": [
     1,
     2,
     3,
-    4
+    4,
+    5,
+    6,
+    7,
+    8
   ],
   "bg_day04_generated": true,
   "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10.",
   "last_run": {
-    "date": "2026-11-08",
-    "covers_date": "2026-11-08",
-    "result": "done: Day 4 clips 10-13 rendered with voice (reused day04_pending scripts), bg_day04 generated (Richard Mille image blocked by ElevenLabs ToS filter, replaced with Ferrari). Buffer: TikTok x4 + Instagram x4 + YouTube x2 (clips 10,11); YouTube for clips 12,13 left for the owner (10-post limit)."
+    "date": "2026-11-09",
+    "covers_date": "2026-11-09",
+    "result": "done: Day 5 clips 14-17 (partner, tonality, justtheprice, reps) rendered with voice. Buffer: TikTok x4 (08:07/11:13/13:07/21:47), Instagram x4 (18:07/19:07/20:07/21:13), YouTube x4 (18:23/19:31/20:37/21:07 ET; 11:23 and 12:37 were already taken by Day 4 clips 12-13). Buffer accepted 14 scheduled posts, so the 10-post limit did not apply this time."
   }
 }
