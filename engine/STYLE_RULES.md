@@ -2,7 +2,8 @@
 
 - 3 clips per day, English, voice "Adam - Dominant, Firm" (eGSd0uV8dNQnZuEEX9lu), eleven_v4, 1 take, sped up 1.25x.
 - On-screen text = exactly the spoken words, word by word, from ElevenLabs word timings. No extra captions.
-- Gold 3D CTA overlay at the bottom of every clip (engine/cta_gold.png; variants cta_gold_199.png "BUY NOW · $199" and cta_gold_free.png "FREE SALES TEST").
+- Gold 3D CTA overlay at the bottom of every clip: engine/cta_gold.png = "FREE SALES TEST · LINK IN BIO!" (owner, 9 Nov 2026).
+  NEVER show or say a price in clips, captions or titles any more. The clip sends people to the free test (funnel), not to the checkout.
 - NO music in the delivered clips (owner adds trending sounds inside TikTok).
 - NO automatic posting via Buffer. Deliver clips in chat; owner posts to TikTok, then Instagram and YouTube.
 - Under every delivered clip, a full pack for all 3 platforms (also saved as DayN_captions.txt in the owner's Mac "Claude Folder"):

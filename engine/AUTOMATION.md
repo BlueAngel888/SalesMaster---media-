@@ -27,9 +27,9 @@ write new ones in the same style from the 24 lesson titles (lessons 1–24, see 
 - Spoken length 30–38 s before the 1.25x speed-up (≈ 80–95 words). First line = hook.
 - Use ElevenLabs v4 tags sparingly: [confident] [calm] [serious] [whispers] [laughs] [hesitant] [unsure] [excited].
 - **Solo** (voice Adam): hook → 3–4 short beats → end with "Follow. One sales skill every day." (or, every
-  other clip, "The full system is inside Sales Master. Link in bio.").
+  other clip, "Take the free sales test. Link in bio.").
 - **Dialogue**: 4–6 short lines alternating CUSTOMER / CLOSER, then one LESSON paragraph spoken by Adam to the
-  camera ending "It's inside Sales Master. Link in bio." Customer = Jessica.
+  camera ending "Take the free sales test. Link in bio." Customer = Jessica.
   Generate ONE take per speaker: all CUSTOMER lines in script order separated by blank lines (one call), and
   all CLOSER + LESSON lines in order separated by blank lines (one call).
 
@@ -93,7 +93,7 @@ Buffer refuses: all TikTok, then all Instagram, then YouTube. For anything that 
 captions in the final message so the owner can post it himself (or it gets picked up on the next run if there
 is room). Never delete or change posts the owner created.
 
-Captions per STYLE_RULES (TikTok max 5 hashtags; YouTube 3 hashtags in description + title; Instagram max 5).
+Captions per STYLE_RULES. No price anywhere; caption CTA = "Free sales test → link in bio" (YouTube description: same line instead of the store link) (TikTok max 5 hashtags; YouTube 3 hashtags in description + title; Instagram max 5).
 Also write `clips/DayN_captions.txt` with the TikTok / YouTube (title, description, tags) / Instagram packs.
 
 ## 7. Wrap up
