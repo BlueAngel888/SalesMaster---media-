@@ -17,6 +17,12 @@ clips are for the NEXT ET day (use that day's slots and that date as "today"/`co
 **If `progress.json` has `last_run.covers_date` equal to today's date in America/New_York and `last_run.result`
 starts with "done", today's clips are already made: stop and send no message.**
 
+## 0b. Repost queue (takes priority)
+If `engine/repost_queue.json` exists: do NOT make new clips and do NOT use ElevenLabs today. Schedule up to 10
+pending posts (TikTok first for the next items, then Instagram, then YouTube) at today's slots, 4 clips per day max,
+using the texts in the file and video URL = base_url + file. Mark each scheduled one "scheduled" with its time,
+commit + push. When no item has a pending platform left, delete the file in the commit. Report in Romanian and stop.
+
 ## 1. Pick topics
 If `engine/scripts/day{NN}_pending.json` exists for the current day (left by a blocked run), reuse those scripts
 instead of writing new ones, then delete the file in the same commit as the finished clips.
