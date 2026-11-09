@@ -2,7 +2,7 @@
 
 - 3 clips per day, English, voice "Adam - Dominant, Firm" (eGSd0uV8dNQnZuEEX9lu), eleven_v4, 1 take, sped up 1.25x.
 - On-screen text = exactly the spoken words, word by word, from ElevenLabs word timings. No extra captions.
-- Gold 3D "BUY NOW · $29 / LINK IN BIO!" at the bottom on every clip (engine/cta_gold.png).
+- Gold 3D CTA overlay at the bottom of every clip (engine/cta_gold.png; variants cta_gold_199.png "BUY NOW · $199" and cta_gold_free.png "FREE SALES TEST").
 - NO music in the delivered clips (owner adds trending sounds inside TikTok).
 - NO automatic posting via Buffer. Deliver clips in chat; owner posts to TikTok, then Instagram and YouTube.
 - Under every delivered clip, a full pack for all 3 platforms (also saved as DayN_captions.txt in the owner's Mac "Claude Folder"):
@@ -21,7 +21,7 @@
   bg_day04 for clips 10-12). From clip 13 on, generate NOTHING new: rotate the existing sets in order,
   one set per day (bg_lux first half, bg_lux second half, bg_day03, bg_day04, then repeat).
 - Never promise income. Never use the names eduKiwi, Doru, Pera, Hobby 2 Profit, H2P.
-- Beacons store: https://beacons.ai/sales_master ($29). Instagram: salesmaster898. TikTok: salsemaster.
+- Beacons store: https://beacons.ai/sales_master (course price: $199 since 9 Nov 2026). Instagram: salesmaster898. TikTok: salsemaster.
 - File names must be specific and easy to recognise (owner request):
   - delivered clips: DayN_clipNN_<topic>.mp4, captions: DayN_captions.txt
   - voice downloads: in the message, give each link with the name to save it as, e.g. Day4_clip10_ADAM.mp3 /

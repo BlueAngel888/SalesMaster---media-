@@ -28,7 +28,12 @@ def gold_text(text, size, cy, depth):
     ol=Image.new("RGBA",big.size,(0,0,0,0)); ImageDraw.Draw(ol).text((x,y),text,font=f,fill=(0,0,0,0),stroke_width=2*S,stroke_fill=(60,35,5,255))
     big=Image.alpha_composite(ol,big)
     return big.resize((W,H),Image.LANCZOS)
+import sys
+# usage: python3 cta_gold.py "LINE ONE" "LINE TWO" out.png   (positioned above TikTok's bottom UI)
+l1 = sys.argv[1] if len(sys.argv) > 1 else "BUY NOW · $199"
+l2 = sys.argv[2] if len(sys.argv) > 2 else "LINK IN BIO!"
+out = sys.argv[3] if len(sys.argv) > 3 else "cta_gold.png"
 im=Image.new("RGBA",(W,H),(0,0,0,0))
-im.alpha_composite(gold_text("BUY NOW · $29",84,1410,9))
-im.alpha_composite(gold_text("LINK IN BIO!",66,1525,7))
-im.save("cta_gold.png")
+im.alpha_composite(gold_text(l1,84,1160,9))
+im.alpha_composite(gold_text(l2,66,1275,7))
+im.save(out)
