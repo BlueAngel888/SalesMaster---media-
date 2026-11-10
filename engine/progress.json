@@ -14,8 +14,8 @@
   "bg_day04_generated": true,
   "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10.",
   "last_run": {
-    "date": "2026-11-09",
-    "covers_date": "2026-11-09",
-    "result": "done: Day 5 clips 14-17 (partner, tonality, justtheprice, reps) rendered with voice. Buffer: TikTok x4 (08:07/11:13/13:07/21:47), Instagram x4 (18:07/19:07/20:07/21:13), YouTube x4 (18:23/19:31/20:37/21:07 ET; 11:23 and 12:37 were already taken by Day 4 clips 12-13). Buffer accepted 14 scheduled posts, so the 10-post limit did not apply this time."
+    "date": "2026-11-10",
+    "covers_date": "2026-11-10",
+    "result": "done: repost queue (no new clips, no ElevenLabs). Buffer 10 posts: TikTok offerloop 06:07, clip9_risk 07:13, clip3 20:47, clip1 22:07; Instagram same order 15:07/17:07/19:07/20:13; YouTube offerloop 11:07, clip9_risk 11:52. YouTube for clip3 and clip1 still pending (10-post limit)."
   }
 }
