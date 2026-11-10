@@ -1,7 +1,7 @@
 # Sales Master – automated email sequence (6 emails, 7 days)
 
 Trigger: someone gets the free "Can You Close This Deal?" test on Beacons.
-Replace QUIZ_LINK with the quiz page link once it is live.
+Replace https://blueangel888.github.io/SalesMaster---media-/ with the quiz page link once it is live.
 Buy link (all emails): https://shop.beacons.ai/sales_master/ea8d707c-efa8-40f0-904f-6d95304cf921
 
 ---
@@ -12,7 +12,7 @@ Buy link (all emails): https://shop.beacons.ai/sales_master/ea8d707c-efa8-40f0-9
 
 Hey,
 
-Here's your free test: **QUIZ_LINK**
+Here's your free test: **https://blueangel888.github.io/SalesMaster---media-/**
 
 8 real sales calls. The prospect says something, you pick what you'd say next. At the end you'll see what kind of closer you are: The Pitcher, The Hustler, The Closer or The Sales Master.
 
@@ -39,7 +39,7 @@ That's over-selling. The moment you speak first, you tell the buyer you're not s
 
 The fix sounds simple and feels hard: **say the price once, calmly, then stay silent.** Let them speak first, even if it takes a while.
 
-That was call #5 in your test. Did you get it right? If you haven't taken it yet: QUIZ_LINK
+That was call #5 in your test. Did you get it right? If you haven't taken it yet: https://blueangel888.github.io/SalesMaster---media-/
 
 Tomorrow: what to say when they tell you "it's too expensive".
 
