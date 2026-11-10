@@ -37,3 +37,6 @@
   YouTube Shorts (Hopper 2026): Mon 11am-1pm & 6-9pm · Tue 11am-12pm · Wed 12-2pm & 7-9pm · Thu 12-3pm & 6-8pm ·
   Fri 11am-1pm · Sat 2-5pm · Sun 5-8pm.
   Clips are published from public raw URLs in clips/ of this repo. Buffer free plan: max 10 scheduled posts at once.
+- Owner (10 Nov 2026): do platform/repo/store settings yourself whenever a tool allows it (e.g. the built-in browser when he is
+  signed in there); only ask him for steps nothing available can do (passwords, admin-only GitHub settings).
+- Free test page (live since 10 Nov 2026): https://blueangel888.github.io/SalesMaster---media-/ (docs/ on main).
