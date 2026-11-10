@@ -1,7 +1,41 @@
 {
-  "note": "Owner 9 Nov 2026: pause new clips; repost these remastered FREE-CTA clips first (owner deletes old $29 versions himself). Each run schedules up to 10 posts from pending items, TikTok first, then Instagram, then YouTube, at that day's slots. When every platform of every item is posted, delete this file and go back to making new clips.",
+  "note": "Owner 9 Nov 2026: pause new clips; repost these remastered FREE-CTA clips first (owner deletes old $29 versions himself). Each run schedules up to 10 posts from pending items, TikTok first, then Instagram, then YouTube, at that day's slots. When every platform of every item is posted, delete this file and go back to making new clips. Owner 10 Nov 2026: also make 2 new clips per day; leftovers of new clips go to the front of this queue (item 'url' overrides base_url+file).",
   "base_url": "https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-/main/clips/free/",
   "items": [
+    {
+      "file": "Day6_clip18_patternbreak.mp4",
+      "url": "https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-/main/clips/Day6_clip18_patternbreak.mp4",
+      "tiktok": {
+        "text": "Cold call getting one-word answers? Do this instead 👀 Say what you notice and give them an easy way out. Free sales test → link in bio\n#sales #coldcalling #salestips #entrepreneur #learnontiktok",
+        "status": "pending"
+      },
+      "instagram": {
+        "text": "Cold call getting one-word answers? Do this instead 👀 Say what you notice and give them an easy way out.\nFree sales test → link in bio 📌\n#coldcalling #salestips #closing #entrepreneur #salesmaster",
+        "status": "pending"
+      },
+      "youtube": {
+        "title": "One-Word Answers on a Sales Call? Break the Pattern",
+        "text": "One-word answers don't mean no. They mean you sound like every other sales call. Say what you notice, then give them an easy way out.\nFree sales test: https://beacons.ai/sales_master\n#sales #coldcalling #shorts",
+        "status": "pending"
+      }
+    },
+    {
+      "file": "Day6_clip19_painlevels.mp4",
+      "url": "https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-/main/clips/Day6_clip19_painlevels.mp4",
+      "tiktok": {
+        "text": "The 3 levels of pain in sales (most people stop at level 1) 🎯 People buy at level three. Free sales test → link in bio\n#sales #salestips #discoverycall #entrepreneur #learnontiktok",
+        "status": "pending"
+      },
+      "instagram": {
+        "text": "The 3 levels of pain in sales (most people stop at level 1) 🎯 People buy at level three.\nFree sales test → link in bio 📌\n#sales #salestips #salespsychology #entrepreneur #salesmaster",
+        "status": "pending"
+      },
+      "youtube": {
+        "title": "The 3 Levels of Pain in Sales (Most Stop at Level 1)",
+        "text": "Surface problem, business impact, personal impact. Most sellers stop at level one. Keep asking: and how does that affect you?\nFree sales test: https://beacons.ai/sales_master\n#sales #salestips #shorts",
+        "status": "pending"
+      }
+    },
     {
       "file": "Day3_clip9_risk_FREE.mp4",
       "tiktok": {

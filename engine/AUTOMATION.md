@@ -18,10 +18,28 @@ clips are for the NEXT ET day (use that day's slots and that date as "today"/`co
 starts with "done", today's clips are already made: stop and send no message.**
 
 ## 0b. Repost queue (takes priority)
-If `engine/repost_queue.json` exists: do NOT make new clips and do NOT use ElevenLabs today. Schedule up to 10
-pending posts (TikTok first for the next items, then Instagram, then YouTube) at today's slots, 4 clips per day max,
-using the texts in the file and video URL = base_url + file. Mark each scheduled one "scheduled" with its time,
-commit + push. When no item has a pending platform left, delete the file in the commit. Report in Romanian and stop.
+If `engine/repost_queue.json` exists: make only **2 new clips** today (owner, 10 Nov 2026: "mai adauga 2 video pe zi"):
+1 dialogue + 1 solo, steps 1-5 as usual (topics, scripts, voices, render, publish to clips/, Day{N}_captions.txt).
+Then schedule in Buffer: the 2 new clips + the next 4 repost items (6 videos/day). Order: TikTok for all 6, then
+Instagram, then YouTube, until Buffer refuses (10 scheduled at once on the free plan). Count posts already scheduled
+first (`list_posts` status scheduled): posts sent earlier today free their place.
+New clips use the EXTRA slots below; reposts use the normal 4 slots. Repost video URL = item `url` if present, else
+base_url + file. **Always make the 2 new clips, even if Buffer is full.** Every platform of a new clip that did not
+fit is added as an item at the FRONT of `repost_queue.json` (with `url` = raw clips/ URL and its texts), so the next
+run posts it first. Mark each scheduled post "scheduled <date> <time> ET", commit + push.
+When no item has a pending platform left, delete the file in the commit and go back to 4 new clips/day.
+
+Extra slots for the 2 new clips (ET; dialogue first):
+| Day | TikTok | YouTube | Instagram |
+|---|---|---|---|
+| Mon | 12:07 · 19:07 | 13:07 · 21:07 | 17:07 · 22:07 |
+| Tue | 09:07 · 21:23 | 12:23 · 21:07 | 12:07 · 21:07 |
+| Wed | 07:07 · 19:07 | 14:07 · 21:07 | 10:07 · 19:07 |
+| Thu | 07:13 · 21:07 | 15:07 · 20:07 | 12:07 · 20:07 |
+| Fri | 21:07 · 23:07 | 13:07 · 18:07 | 12:07 · 19:07 |
+| Sat | 18:07 · 21:47 | 17:07 · 18:07 | 19:07 · 23:07 |
+| Sun | 10:07 · 20:47 | 20:23 · 21:07 | 19:07 · 23:07 |
+If an extra slot is already past, use the next free slot later that day (or the next day's extra slot).
 
 ## 1. Pick topics
 If `engine/scripts/day{NN}_pending.json` exists for the current day (left by a blocked run), reuse those scripts
