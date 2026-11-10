@@ -1,5 +1,5 @@
 {
-  "note": "Owner 9 Nov 2026: pause new clips; repost these remastered FREE-CTA clips first (owner deletes old $29 versions himself). Each run schedules up to 10 posts from pending items, TikTok first, then Instagram, then YouTube, at that day's slots. When every platform of every item is posted, delete this file and go back to making new clips. Owner 10 Nov 2026: also make 2 new clips per day; leftovers of new clips go to the front of this queue (item 'url' overrides base_url+file).",
+  "note": "Owner 9 Nov 2026: pause new clips; repost these remastered FREE-CTA clips first (owner deletes old $29 versions himself). Each run schedules up to 10 posts from pending items, TikTok first, then Instagram, then YouTube, at that day's slots. When every platform of every item is posted, delete this file and go back to making new clips. Owner 10 Nov 2026: also make 2 new clips per day; leftovers of new clips go to the front of this queue (item 'url' overrides base_url+file). 10 Nov 2026: Instagram lost Buffer authorization (shareNow failed); the IG posts scheduled for 10 Nov will fail too. After the owner reconnects, re-check IG statuses (list_posts status error) and set failed ones back to pending.",
   "base_url": "https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-/main/clips/free/",
   "items": [
     {
@@ -16,7 +16,7 @@
       "youtube": {
         "title": "One-Word Answers on a Sales Call? Break the Pattern",
         "text": "One-word answers don't mean no. They mean you sound like every other sales call. Say what you notice, then give them an easy way out.\nFree sales test: https://beacons.ai/sales_master\n#sales #coldcalling #shorts",
-        "status": "pending"
+        "status": "scheduled 2026-11-10 12:23 ET"
       }
     },
     {
@@ -33,7 +33,7 @@
       "youtube": {
         "title": "The 3 Levels of Pain in Sales (Most Stop at Level 1)",
         "text": "Surface problem, business impact, personal impact. Most sellers stop at level one. Keep asking: and how does that affect you?\nFree sales test: https://beacons.ai/sales_master\n#sales #salestips #shorts",
-        "status": "pending"
+        "status": "scheduled 2026-11-10 21:07 ET"
       }
     },
     {
@@ -65,7 +65,7 @@
       "youtube": {
         "title": "Say Your Price... Then STOP Talking",
         "text": "After you say the price, the silence feels awkward. Don't fill it. Whoever talks first usually negotiates against themselves.\nFree sales test: https://beacons.ai/sales_master\n#sales #closing #shorts",
-        "status": "pending"
+        "status": "scheduled 2026-11-10 19:13 ET"
       }
     },
     {
@@ -97,14 +97,14 @@
       "youtube": {
         "title": "Every Rich Person Has ONE Job They Never Quit",
         "text": "Founders, creators, business owners: they all sell. Selling is the skill behind every other skill.\nFree sales test: https://beacons.ai/sales_master\n#sales #mindset #shorts",
-        "status": "pending"
+        "status": "scheduled 2026-11-10 20:37 ET"
       }
     },
     {
       "file": "Day2_clip4_price_FREE.mp4",
       "tiktok": {
         "text": "\"So... how much is it?\" Don't just blurt out a number. Ask these 2 questions first. 👇 Part 2 Free sales test → link in bio\n#sales #salestips #closing #objectionhandling #learnontiktok",
-        "status": "pending"
+        "status": "posted 2026-11-10 08:43 ET"
       },
       "instagram": {
         "text": "\"So... how much is it?\" Don't just blurt out a number. Ask these 2 questions first. 👇 Part 2\nFree sales test → link in bio 📌\n#salestips #closing #objectionhandling #entrepreneur #salesmaster",
@@ -113,14 +113,14 @@
       "youtube": {
         "title": "What To Say When They Ask \"How Much Is It?\"",
         "text": "Before you give the price, ask two questions so they sell it to themselves. Then give the price once, calmly.\nFree sales test: https://beacons.ai/sales_master\n#sales #closing #shorts",
-        "status": "pending"
+        "status": "posted 2026-11-10 08:43 ET"
       }
     },
     {
       "file": "Day1_clip2_FREE.mp4",
       "tiktok": {
         "text": "The fastest HONEST way to make your first sale this week. No crypto. No dropshipping. 📱 Free sales test → link in bio\n#sales #sidehustle #firstsale #smallbusiness #learnontiktok",
-        "status": "pending"
+        "status": "posted 2026-11-10 08:43 ET"
       },
       "instagram": {
         "text": "The fastest HONEST way to make your first sale this week. No crypto. No dropshipping. 📱\nFree sales test → link in bio 📌\n#sidehustle #firstsale #salestips #smallbusiness #entrepreneur",
@@ -129,14 +129,14 @@
       "youtube": {
         "title": "The Fastest Honest Way To Get Your First Customer",
         "text": "Pick something people already pay for, then message 20 people with one honest question. Here's the exact approach.\nFree sales test: https://beacons.ai/sales_master\n#sales #sidehustle #shorts",
-        "status": "pending"
+        "status": "posted 2026-11-10 08:43 ET"
       }
     },
     {
       "file": "Day3_clip7_expensive_FREE.mp4",
       "tiktok": {
         "text": "They tell you \"it's too expensive\"... and you drop the price? Don't. Ask this instead 👇 Part 3 Free sales test → link in bio\n#sales #salestips #objectionhandling #entrepreneur #learnontiktok",
-        "status": "pending"
+        "status": "posted 2026-11-10 08:44 ET"
       },
       "instagram": {
         "text": "They tell you \"it's too expensive\"... and you drop the price? Don't. Ask this instead 👇 Part 3\nFree sales test → link in bio 📌\n#salestips #objectionhandling #sales #entrepreneur #smallbusinesstips",
@@ -145,7 +145,7 @@
       "youtube": {
         "title": "What To Say When They Say \"It's Too Expensive\"",
         "text": "\"Too expensive\" is rarely about price, it's doubt. Here's the question that uncovers the real objection.\nFree sales test: https://beacons.ai/sales_master\n#sales #salestips #shorts",
-        "status": "pending"
+        "status": "posted 2026-11-10 08:44 ET"
       }
     },
     {
