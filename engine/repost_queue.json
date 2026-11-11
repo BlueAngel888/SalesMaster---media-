@@ -1,5 +1,5 @@
 {
- "note": "Owner 9 Nov 2026: pause new clips; repost these remastered FREE-CTA clips first (owner deletes old $29 versions himself). Each run schedules up to 10 posts from pending items, TikTok first, then Instagram, then YouTube, at that day's slots. When every platform of every item is posted, delete this file and go back to making new clips. Owner 10 Nov 2026: also make 2 new clips per day; leftovers of new clips go to the front of this queue (item 'url' overrides base_url+file). 10 Nov 2026: Instagram lost Buffer authorization (shareNow failed); the IG posts scheduled for 10 Nov will fail too. After the owner reconnects, re-check IG statuses (list_posts status error) and set failed ones back to pending. 11 Nov 2026: Instagram still 'lost authorization' (5 IG posts in Buffer carry that error); no new IG posts scheduled until the owner refreshes the channel in Buffer.",
+ "note": "Owner 9 Nov 2026: pause new clips; repost these remastered FREE-CTA clips first (owner deletes old $29 versions himself). Each run schedules up to 10 posts from pending items, TikTok first, then Instagram, then YouTube, at that day's slots. When every platform of every item is posted, delete this file and go back to making new clips. Owner 10 Nov 2026: also make 2 new clips per day; leftovers of new clips go to the front of this queue (item 'url' overrides base_url+file). 10 Nov 2026: Instagram lost Buffer authorization (shareNow failed); the IG posts scheduled for 10 Nov will fail too. After the owner reconnects, re-check IG statuses (list_posts status error) and set failed ones back to pending. 11 Nov 2026: Instagram still 'lost authorization' (5 IG posts in Buffer carry that error); no new IG posts scheduled until the owner refreshes the channel in Buffer. 11 Nov 2026 06:10 ET: owner reconnected Instagram; IG for clip20/21 (today) and clip18/19 (12 Nov) scheduled. Older IG posts still show the stale auth error text; check after 08:07 ET whether Day1_clip3 IG was sent.",
  "base_url": "https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-/main/clips/free/",
  "items": [
   {
@@ -11,7 +11,7 @@
    },
    "instagram": {
     "text": "Prospect won't stop talking about their vacation? Steer back like this 🎯 Be warm, not their friend.\nFree sales test → link in bio 📌\n#sales #salestips #closing #entrepreneur #salesmaster",
-    "status": "pending"
+    "status": "scheduled 2026-11-11 10:07 ET"
    },
    "youtube": {
     "title": "Prospect Won't Stop Talking? Steer the Sales Call Back",
@@ -28,7 +28,7 @@
    },
    "instagram": {
     "text": "Stop asking customers only what's wrong ❌ Ask where they want to be. The gap is what they pay for.\nFree sales test → link in bio 📌\n#sales #salestips #salespsychology #entrepreneur #salesmaster",
-    "status": "pending"
+    "status": "scheduled 2026-11-11 19:07 ET"
    },
    "youtube": {
     "title": "Stop Asking Customers What's Wrong. Ask This Instead",
@@ -45,7 +45,7 @@
    },
    "instagram": {
     "text": "Cold call getting one-word answers? Do this instead 👀 Say what you notice and give them an easy way out.\nFree sales test → link in bio 📌\n#coldcalling #salestips #closing #entrepreneur #salesmaster",
-    "status": "pending"
+    "status": "scheduled 2026-11-12 08:07 ET"
    },
    "youtube": {
     "title": "One-Word Answers on a Sales Call? Break the Pattern",
@@ -62,7 +62,7 @@
    },
    "instagram": {
     "text": "The 3 levels of pain in sales (most people stop at level 1) 🎯 People buy at level three.\nFree sales test → link in bio 📌\n#sales #salestips #salespsychology #entrepreneur #salesmaster",
-    "status": "pending"
+    "status": "scheduled 2026-11-12 09:07 ET"
    },
    "youtube": {
     "title": "The 3 Levels of Pain in Sales (Most Stop at Level 1)",
