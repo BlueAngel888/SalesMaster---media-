@@ -1,6 +1,6 @@
 {
-  "next_day": 7,
-  "next_clip": 20,
+  "next_day": 8,
+  "next_clip": 22,
   "used_topic_ids": [
     1,
     2,
@@ -11,13 +11,15 @@
     7,
     8,
     9,
-    11
+    11,
+    10,
+    12
   ],
   "bg_day04_generated": true,
   "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10.",
   "last_run": {
-    "date": "2026-11-10",
-    "covers_date": "2026-11-10",
-    "result": "done: repost queue (no new clips, no ElevenLabs). Buffer 10 posts: TikTok offerloop 06:07, clip9_risk 07:13, clip3 20:47, clip1 22:07; Instagram same order 15:07/17:07/19:07/20:13; YouTube offerloop 11:07, clip9_risk 11:52. YouTube for clip3 and clip1 still pending (10-post limit). + 2 new clips made on owner request: Day6 clip18 patternbreak (topic 9, dialog), clip19 painlevels (topic 11, solo). Buffer: clip18 TikTok 09:07, clip19 TikTok 21:23; their Instagram + YouTube wait at the front of the queue (Buffer full). Owner asked to post 3 clips now: Day2_clip4_price, Day1_clip2, Day3_clip7_expensive posted on TikTok + YouTube (Instagram failed: Buffer lost authorization). YouTube scheduled extra: clip18 12:23, clip3 19:13, clip1 20:37, clip19 21:07. Buffer accepted >10 scheduled."
+    "date": "2026-11-11",
+    "covers_date": "2026-11-11",
+    "result": "done: Day7 clip20 friendzone (topic 10, dialog), clip21 thegap (topic 12, solo). Buffer TikTok: clip5_result 06:07, clip20 07:07, clip21 19:07, clip8_firstsale 20:13, clip6_close 21:07, clip10_silence 22:07. YouTube: clip5 12:07, clip8 13:37, clip20 14:07, clip6 19:13, clip10 20:37, clip21 21:07. Instagram skipped: Buffer lost authorization (needs channel refresh); IG of clip20/21 queued pending."
   }
 }
