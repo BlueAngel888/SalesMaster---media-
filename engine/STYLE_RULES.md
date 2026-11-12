@@ -49,3 +49,43 @@
 - WHAT IF clips: open with "What if...", cover kicker WHAT IF. Topics: course lessons + money themes (making money,
   side income, selling houses / real estate / cars, raises). Core message: everything is a sale.
   Never promise income, never say easy/fast money; results depend on the work.
+
+## Persuasion playbook (owner, 12 Nov): every script and cover follows this
+Structure of every clip (30-38 s spoken, before 1.25x):
+1. **HOOK, 0-2 s, money pain.** Name a money frustration the viewer already feels, in "you" language, concrete and
+   relatable, never shaming: "Paycheck gone by the 20th?", "Working 50 hours and still broke?", "Someone with less
+   talent than you just closed a deal you didn't." The cover text = the hook (works muted).
+2. **AGITATE, 2-8 s.** Make the cost of doing nothing felt (loss aversion): "Every month you don't learn this, someone
+   else takes the deal." One sentence, then a short pause.
+3. **REFRAME, 8-15 s.** The real problem isn't the job or the economy, it's the missing skill: "The money goes to
+   whoever can sell." Everything is a sale: houses, cars, insurance, services, your raise, your rent.
+4. **SOLUTION, 15-28 s.** One concrete technique from the course (the lesson of the topic): the exact words to say.
+   Give real value; the viewer must learn something usable today.
+5. **BRIDGE + CTA, last 4-6 s.** Future pacing + low-friction step: "Picture your next client saying yes... Take the
+   free sales test. Link in bio." (Never the price.)
+
+Persuasion tools to use (honest, no tricks):
+- Open loop in the first 3 s, closed near the end ("...and the third one is the one that closes.").
+- Pattern interrupt: an unexpected line or contrast ("Real estate agents don't sell houses.").
+- Specific details beat vague claims (numbers of steps, calls, seconds of silence; never income numbers).
+- Loss aversion > gain: "what you're leaving on the table", "the deal someone else takes".
+- Identity: "Closers don't...", "Amateurs ask if, pros ask which."
+- Mild presupposition / embedded direction: "When you take the test, watch question 5."
+- Social proof only if real. Never invent testimonials, results or numbers of students.
+- Commission angle, worded as opportunity: "Get paid per deal", "the conversation every commission depends on",
+  "one closed deal can cover the course" (rarely, always "can").
+Forbidden: income promises or amounts, "easy/fast/guaranteed money", fake urgency/scarcity, shaming poverty,
+fake testimonials, medical/legal/financial advice. Footer line in captions is enough as disclaimer.
+
+Cover titles (3-7 words, uppercase, hook = cover): money pain or curiosity. Examples:
+"PAYCHECK GONE BY THE 20TH?", "THEY SOLD IT. YOU DIDN'T.", "GET PAID PER DEAL?", "THE CONVERSATION BEHIND EVERY
+COMMISSION", "WHY BROKE PEOPLE HATE SELLING", "SAY THIS AND STOP TALKING". WHAT IF clips: kicker "WHAT IF..." +
+question ("YOU GOT PAID EVERY TIME YOU CLOSED?").
+
+Voice / intonation (ElevenLabs v4, natural, not announcer):
+- Write how people talk: short sentences, contractions, one idea per sentence, a few fragments ("Not the price. Doubt.").
+- Pauses with "..." before the key line and after the hook question. Max one [pause]-style beat per 2 sentences.
+- Tags sparingly, matched to the beat: hook [serious] or [curious]; agitate [calm]; reframe [confident];
+  technique [confident]; CTA [warm] or [calm]. Never [excited] on money lines (sounds like a scam).
+- Emphasis by word choice and position (end of sentence), not ALL CAPS in the script.
+- Dialogues: the customer sounds real (hesitant, skeptical), the closer calm and slow; nobody "pitches".

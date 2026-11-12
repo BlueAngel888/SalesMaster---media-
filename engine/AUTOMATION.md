@@ -30,6 +30,8 @@ From `engine/topics.json` take the first 2 unused `dialog`, the first unused `so
 write new ones in the same style from the 24 lesson titles (lessons 1–24, see topics) and append them.
 
 ## 2. Write scripts (English)
+**Follow the 'Persuasion playbook' in STYLE_RULES.md for every clip: money-pain hook, agitate, reframe, course
+technique, future-paced CTA; natural intonation. Cover title = the hook.**
 - Spoken length 30–38 s before the 1.25x speed-up (≈ 80–95 words). First line = hook.
 - Use ElevenLabs v4 tags sparingly: [confident] [calm] [serious] [whispers] [laughs] [hesitant] [unsure] [excited].
 - **Solo** (voice Adam): hook → 3–4 short beats → end with "Follow. One sales skill every day." (or, every
