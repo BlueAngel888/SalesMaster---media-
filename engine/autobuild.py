@@ -61,7 +61,20 @@ def dialog(day, clip, spec_json, cmp3, amp3, outname):
     out_dir = f"/home/claude/tiktok/out/day{int(day):02d}"; os.makedirs(out_dir, exist_ok=True)
     final = f"{out_dir}/{outname}.mp4"; os.replace(out, final); return final
 
+def add_cover(path, title, kicker):
+    """Built-in cover on the first ~1.1 s (see cover.py). Every clip gets one."""
+    import cover
+    return cover.apply(path, path, title, kicker or "SALES MASTER")
+
 if __name__ == "__main__":
+    # optional last args on every command: --cover "HOOK TITLE" [--kicker "WHAT IF..."]
     a = sys.argv
-    if a[1] == "solo": print(solo(a[2], a[3], a[4], a[5], a[6]))
-    elif a[1] == "dialog": print(dialog(a[2], a[3], a[4], a[5], a[6], a[7]))
+    title = kicker = None
+    if "--cover" in a:
+        i = a.index("--cover"); title = a[i + 1]; del a[i:i + 2]
+    if "--kicker" in a:
+        i = a.index("--kicker"); kicker = a[i + 1]; del a[i:i + 2]
+    if a[1] == "solo": out = solo(a[2], a[3], a[4], a[5], a[6])
+    elif a[1] == "dialog": out = dialog(a[2], a[3], a[4], a[5], a[6], a[7])
+    if title: add_cover(out, title, kicker)
+    print(out)

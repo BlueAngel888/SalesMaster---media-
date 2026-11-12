@@ -40,3 +40,12 @@
 - Owner (10 Nov 2026): do platform/repo/store settings yourself whenever a tool allows it (e.g. the built-in browser when he is
   signed in there); only ask him for steps nothing available can do (passwords, admin-only GitHub settings).
 - Free test page (live since 10 Nov 2026): https://blueangel888.github.io/SalesMaster---media-/ (docs/ on main).
+
+
+## Owner rules from 12 Nov
+- Max 4 clips per day in total, per platform: 2 dialogue + 1 solo + 1 WHAT IF. No reposts of old clips.
+- Every clip has a built-in cover on its first ~1.1 s (engine/cover.py): blurred clip frame, gold kicker,
+  big white hook with the last line in gold. Kicker "SALES MASTER", or "WHAT IF..." on WHAT IF clips.
+- WHAT IF clips: open with "What if...", cover kicker WHAT IF. Topics: course lessons + money themes (making money,
+  side income, selling houses / real estate / cars, raises). Core message: everything is a sale.
+  Never promise income, never say easy/fast money; results depend on the work.

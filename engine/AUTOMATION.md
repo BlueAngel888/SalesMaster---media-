@@ -1,7 +1,9 @@
 # Daily automated run – Sales Master clips
 
-Goal of each run: make **4 clips** (2 dialogue + 2 solo), publish them through Buffer at the day's best
-times (America/New_York), and report to the owner in Romanian. Read `STYLE_RULES.md` first; it wins over
+Goal of each run: make **4 clips** (2 dialogue + 1 solo + 1 WHAT IF), publish them through Buffer at the day's best
+times (America/New_York), and report to the owner in Romanian.
+**Hard cap (owner, 12 Nov): max 4 posts per platform per day, in total. No reposts of old clips.**
+**Every clip gets a built-in cover** on its first ~1.1 s (`--cover "HOOK"`, see step 4); the owner never picks covers. Read `STYLE_RULES.md` first; it wins over
 anything here. Never promise income. Never use the names eduKiwi, Doru, Pera, Hobby 2 Profit, H2P.
 
 ## 0. Setup (fresh container)
@@ -17,34 +19,14 @@ clips are for the NEXT ET day (use that day's slots and that date as "today"/`co
 **If `progress.json` has `last_run.covers_date` equal to today's date in America/New_York and `last_run.result`
 starts with "done", today's clips are already made: stop and send no message.**
 
-## 0b. Repost queue (takes priority)
-If `engine/repost_queue.json` exists: make only **2 new clips** today (owner, 10 Nov 2026: "mai adauga 2 video pe zi"):
-1 dialogue + 1 solo, steps 1-5 as usual (topics, scripts, voices, render, publish to clips/, Day{N}_captions.txt).
-Then schedule in Buffer: the 2 new clips + the next 4 repost items (6 videos/day). Order: TikTok for all 6, then
-Instagram, then YouTube, until Buffer refuses (10 scheduled at once on the free plan). Count posts already scheduled
-first (`list_posts` status scheduled): posts sent earlier today free their place.
-New clips use the EXTRA slots below; reposts use the normal 4 slots. Repost video URL = item `url` if present, else
-base_url + file. **Always make the 2 new clips, even if Buffer is full.** Every platform of a new clip that did not
-fit is added as an item at the FRONT of `repost_queue.json` (with `url` = raw clips/ URL and its texts), so the next
-run posts it first. Mark each scheduled post "scheduled <date> <time> ET", commit + push.
-When no item has a pending platform left, delete the file in the commit and go back to 4 new clips/day.
-
-Extra slots for the 2 new clips (ET; dialogue first):
-| Day | TikTok | YouTube | Instagram |
-|---|---|---|---|
-| Mon | 12:07 · 19:07 | 13:07 · 21:07 | 17:07 · 22:07 |
-| Tue | 09:07 · 21:23 | 12:23 · 21:07 | 12:07 · 21:07 |
-| Wed | 07:07 · 19:07 | 14:07 · 21:07 | 10:07 · 19:07 |
-| Thu | 07:13 · 21:07 | 15:07 · 20:07 | 12:07 · 20:07 |
-| Fri | 21:07 · 23:07 | 13:07 · 18:07 | 12:07 · 19:07 |
-| Sat | 18:07 · 21:47 | 17:07 · 18:07 | 19:07 · 23:07 |
-| Sun | 10:07 · 20:47 | 20:23 · 21:07 | 19:07 · 23:07 |
-If an extra slot is already past, use the next free slot later that day (or the next day's extra slot).
+## 0b. Repost queue
+Stopped by the owner on 12 Nov (too many posts per day). If `engine/repost_queue.json` still exists, delete it in
+this run's commit and ignore it. Never schedule old clips again unless the owner asks.
 
 ## 1. Pick topics
 If `engine/scripts/day{NN}_pending.json` exists for the current day (left by a blocked run), reuse those scripts
 instead of writing new ones, then delete the file in the same commit as the finished clips.
-From `engine/topics.json` take the first 2 unused `dialog` and first 2 unused `solo` topics. If fewer remain,
+From `engine/topics.json` take the first 2 unused `dialog`, the first unused `solo` and the first unused `whatif` topic. If fewer remain,
 write new ones in the same style from the 24 lesson titles (lessons 1–24, see topics) and append them.
 
 ## 2. Write scripts (English)
@@ -52,6 +34,10 @@ write new ones in the same style from the 24 lesson titles (lessons 1–24, see 
 - Use ElevenLabs v4 tags sparingly: [confident] [calm] [serious] [whispers] [laughs] [hesitant] [unsure] [excited].
 - **Solo** (voice Adam): hook → 3–4 short beats → end with "Follow. One sales skill every day." (or, every
   other clip, "Take the free sales test. Link in bio.").
+- **WHAT IF** (voice Adam, solo render): the first spoken words are "What if..." + the topic's question. Themes: lessons
+  from the course AND money topics people search for (making money, side income, selling houses/real estate/cars,
+  raises, negotiating). Message: everything is a sale, and the skill is learnable. NEVER promise income or say
+  "easy/fast money"; say results depend on the work. End: "Take the free sales test. Link in bio."
 - **Dialogue**: 4–6 short lines alternating CUSTOMER / CLOSER, then one LESSON paragraph spoken by Adam to the
   camera ending "Take the free sales test. Link in bio." Customer = Jessica.
   Generate ONE take per speaker: all CUSTOMER lines in script order separated by blank lines (one call), and
@@ -71,8 +57,10 @@ write new ones in the same style from the 24 lesson titles (lessons 1–24, see 
 Save transcript words as JSON, then:
 ```bash
 cd /home/claude/tiktok
-python3 autobuild.py solo   N clipNN words.json voice.mp3 DayN_clipNN_<topic>
-python3 autobuild.py dialog N clipNN spec.json customer.mp3 closer.mp3 DayN_clipNN_<topic>
+python3 autobuild.py solo   N clipNN words.json voice.mp3 DayN_clipNN_<topic> --cover "HOOK TITLE"
+python3 autobuild.py dialog N clipNN spec.json customer.mp3 closer.mp3 DayN_clipNN_<topic> --cover "HOOK TITLE"
+python3 autobuild.py solo   N clipNN words.json voice.mp3 DayN_clipNN_whatif_<topic> --cover "YOU COULD SELL A HOUSE TOMORROW?" --kicker "WHAT IF..."
+# cover title = the clip's hook, 3-7 words, uppercase (topics.json "cover" field for whatif topics). Kicker defaults to SALES MASTER.
 # spec.json = {"lines": [["CUSTOMER","..."],["CLOSER","..."],...,["LESSON","..."]],
 #              "customer_words": [...], "closer_words": [...], "keywords": ["OFFER", ...]}
 ```
@@ -81,7 +69,7 @@ black-and-white luxury images (Rolls-Royce, Lamborghini, Rolex, Richard Mille, v
 yacht, Patek Philippe) with `creative_generate_image`, model seedream-5-lite, 1 variation each, 9:16, download
 them to `/home/claude/tiktok/bg_day04/d4_01.jpg…d4_08.jpg`, commit them to `engine/bg_day04/`, set the flag.
 This is the LAST image generation ever.
-Check one frame per clip (ffmpeg -ss 5 … -frames:v 1, then Read the jpg): text readable, not under the CTA.
+Check two frames per clip (ffmpeg -ss 0.1 and -ss 5, then Read the jpgs): cover readable at 0.1 s; at 5 s text readable, not under the CTA.
 
 ## 5. Publish files
 Copy finals to `$R/clips/`, commit + push (commit trailers from the session's attribution reminder).
@@ -92,10 +80,12 @@ Public URL: `https://raw.githubusercontent.com/BlueAngel888/SalesMaster---media-
 Org `6aebe3cacd3a1b8f70a4d89b`. TikTok `6aebe4bee29c69a17167ef79`, YouTube `6aebe43fe29c69a17167e720`,
 Instagram (business) `6aed79c1e29c69a1717da5ff`. `mode: customScheduled`, `schedulingType:
 automatic`, `isAiGenerated: true`. YouTube: `categoryId "27"`, privacy public, madeForKids false, title ≤70
-chars. Instagram: type reel, shouldShareToFeed true, isAiGenerated true. Skip any slot already in the past; use the
+chars. Instagram: type reel, shouldShareToFeed true, isAiGenerated true.
+Cover: on TikTok and Instagram video assets set `metadata.thumbnailOffset: 300` (the built-in cover frame).
+YouTube Shorts takes its thumbnail from the video; the cover is in the first frames. Skip any slot already in the past; use the
 next free slot later that day.
 
-Slots (ET), dialogue clips get the 1st and 3rd slot:
+Slots (ET), dialogue clips get the 1st and 3rd slot, solo the 2nd, WHAT IF the 4th:
 
 | Day | TikTok | YouTube Shorts |
 |---|---|---|
@@ -112,7 +102,7 @@ Mon 18:07 · 19:07 · 20:07 · 21:13 — Tue 15:07 · 17:07 · 19:07 · 20:13 �
 Thu 07:07 · 08:07 · 09:07 · 19:13 — Fri 06:07 · 20:13 · 21:07 · 22:07 — Sat 20:07 · 21:07 · 22:07 · 22:43 —
 Sun 20:07 · 21:07 · 22:07 · 22:43
 
-**Buffer free plan = max 10 scheduled posts at once.** 4 clips x 3 platforms = 12. Schedule in this order until
+**Buffer free plan = max 10 scheduled posts at once.** 4 clips x 3 platforms = 12 (never more than 4 per platform per day). Schedule in this order until
 Buffer refuses: all TikTok, then all Instagram, then YouTube. For anything that did not fit, put the file link +
 captions in the final message so the owner can post it himself (or it gets picked up on the next run if there
 is room). Never delete or change posts the owner created.

@@ -1,42 +1,326 @@
 [
- {"id": 1,  "lesson": 21, "format": "dialog", "topic": "Silence after the price: closer states the price, customer squirms, closer stays silent, customer says yes. Lesson: whoever speaks first after the price loses."},
- {"id": 2,  "lesson": 23, "format": "dialog", "topic": "'I need to think about it' -> 'Totally fair. What exactly do you need to think about?' -> real objection (money) appears."},
- {"id": 3,  "lesson": 2,  "format": "solo",   "topic": "Selling is helping: if you believe your product helps, NOT selling it is the selfish move."},
- {"id": 4,  "lesson": 5,  "format": "solo",   "topic": "Status: the person who needs the deal more loses. Act like the expert, not the beggar."},
- {"id": 5,  "lesson": 23, "format": "dialog", "topic": "'I need to talk to my wife/partner' -> 'If they agreed, is there anything else stopping you?' -> collect all objections first."},
- {"id": 6,  "lesson": 19, "format": "dialog", "topic": "'Just tell me the price' mid-pitch -> 'I want the core ideas to be clear first. Two more minutes.' Price comes after they agree with the plan."},
- {"id": 7,  "lesson": 7,  "format": "solo",   "topic": "Tonality: certainty in your voice sells more than the words. Statements down, not up like questions."},
- {"id": 8,  "lesson": 4,  "format": "solo",   "topic": "Volume makes you good: 100 conversations teach you more than 10 courses. Reps beat theory."},
- {"id": 9,  "lesson": 9,  "format": "dialog", "topic": "Cold lead gives one-word answers -> pattern break: 'I notice short answers. I called to see if I can help. Is now a bad time?'"},
- {"id": 10, "lesson": 16, "format": "dialog", "topic": "Prospect talks for minutes about their holiday -> closer stays warm, then steers back with a question. Avoid the friend zone."},
- {"id": 11, "lesson": 10, "format": "solo",   "topic": "Three levels of pain: surface problem, business impact, personal impact. People buy at level three."},
- {"id": 12, "lesson": 11, "format": "solo",   "topic": "Ask where they want to be, not just what's wrong. The gap between now and goal is what they pay for."},
- {"id": 13, "lesson": 18, "format": "dialog", "topic": "'Maybe in 3-4 months' -> closer doesn't pitch, explains why it makes no sense to continue today; customer: 'Actually... could we start now?'"},
- {"id": 14, "lesson": 22, "format": "dialog", "topic": "Customer asks for 4 instalments -> closer agrees only in return for a case study and 2 referrals. Give and take."},
- {"id": 15, "lesson": 1,  "format": "solo",   "topic": "Mental trap: you project YOUR budget onto the customer. 'That's expensive' is often your thought, not theirs."},
- {"id": 16, "lesson": 12, "format": "solo",   "topic": "Blockers: ask what stopped them from solving this before. That answer is your future objection, handle it early."},
- {"id": 17, "lesson": 21, "format": "dialog", "topic": "No objections left but no decision -> pattern interrupt: 'I'm starting to doubt this is right for you. Did I misunderstand something?'"},
- {"id": 18, "lesson": 23, "format": "dialog", "topic": "'Send me more info by email' -> 'Happy to. What specifically do you want to see, so I send the right thing?' -> real question appears."},
- {"id": 19, "lesson": 8,  "format": "solo",   "topic": "The 7-hour rule: people buy after roughly 7 hours of contact with you. Content builds those hours for you."},
- {"id": 20, "lesson": 14, "format": "solo",   "topic": "No-shows: a short reminder the day before and a reason to show up cuts no-shows. Never chase with guilt."},
- {"id": 21, "lesson": 20, "format": "dialog", "topic": "Customer: 'Why can't I just do it myself?' -> closer explains options (alone, DIY tools, with help) and lets the customer choose the vehicle."},
- {"id": 22, "lesson": 17, "format": "dialog", "topic": "Qualifying: closer asks 'If we find the right solution today, are you in a position to start?' before pitching anything."},
- {"id": 23, "lesson": 6,  "format": "solo",   "topic": "Create status: be a little hard to get. Set the agenda of the call yourself in the first 30 seconds."},
- {"id": 24, "lesson": 24, "format": "solo",   "topic": "After the yes: stop selling. Take payment calmly, explain next steps. Talking more after yes creates doubt."},
- {"id": 25, "lesson": 21, "format": "dialog", "topic": "Customer: 'Can you do a discount?' -> closer: 'What would a discount change for you?' -> it's not about price."},
- {"id": 26, "lesson": 13, "format": "dialog", "topic": "End of first call: closer books the meeting only if there's a real problem; disqualifies a tire-kicker politely."},
- {"id": 27, "lesson": 3,  "format": "solo",   "topic": "Your energy is the first thing they buy. Stand up, smile, prepare before every call."},
- {"id": 28, "lesson": 15, "format": "solo",   "topic": "A script is not a cage: it's a map. Pros use a structure so they can listen instead of thinking what to say."},
- {"id": 29, "lesson": 23, "format": "dialog", "topic": "'I've been burned before by courses/agencies' -> closer acknowledges, asks what went wrong, shows how this is different with proof."},
- {"id": 30, "lesson": 22, "format": "dialog", "topic": "Down-sell: customer can't afford the full offer -> closer offers a smaller first step instead of a discount."},
- {"id": 31, "lesson": 2,  "format": "solo",   "topic": "Stop convincing, start diagnosing: doctors don't beg patients to take medicine."},
- {"id": 32, "lesson": 10, "format": "solo",   "topic": "Ask 'What happens if nothing changes in the next 6 months?' Then stay quiet."},
- {"id": 33, "lesson": 19, "format": "dialog", "topic": "Customer doubts it works for them -> closer shows proof from someone in the same situation, not generic testimonials."},
- {"id": 34, "lesson": 16, "format": "dialog", "topic": "Closer sets the frame: 'Here's how the next 30 minutes go: I ask questions, if it fits I show you, if not I tell you. Fair?'"},
- {"id": 35, "lesson": 4,  "format": "solo",   "topic": "Track 3 numbers daily: conversations, offers made, yeses. What you measure improves."},
- {"id": 36, "lesson": 7,  "format": "solo",   "topic": "Slow down when you say the price. Fast talk sounds nervous; slow sounds certain."},
- {"id": 37, "lesson": 23, "format": "dialog", "topic": "'It's not the right time' -> 'When would be the right time, and what would be different then?'"},
- {"id": 38, "lesson": 18, "format": "dialog", "topic": "Big promise: closer summarises the customer's goal in their own words before showing the plan; customer: 'Exactly.'"},
- {"id": 39, "lesson": 1,  "format": "solo",   "topic": "Fear of rejection: a 'no' is information, not an insult. Ask what made it a no."},
- {"id": 40, "lesson": 11, "format": "solo",   "topic": "People buy the result, not the product: sell the after-picture."}
+ {
+  "id": 1,
+  "lesson": 21,
+  "format": "dialog",
+  "topic": "Silence after the price: closer states the price, customer squirms, closer stays silent, customer says yes. Lesson: whoever speaks first after the price loses."
+ },
+ {
+  "id": 2,
+  "lesson": 23,
+  "format": "dialog",
+  "topic": "'I need to think about it' -> 'Totally fair. What exactly do you need to think about?' -> real objection (money) appears."
+ },
+ {
+  "id": 3,
+  "lesson": 2,
+  "format": "solo",
+  "topic": "Selling is helping: if you believe your product helps, NOT selling it is the selfish move."
+ },
+ {
+  "id": 4,
+  "lesson": 5,
+  "format": "solo",
+  "topic": "Status: the person who needs the deal more loses. Act like the expert, not the beggar."
+ },
+ {
+  "id": 5,
+  "lesson": 23,
+  "format": "dialog",
+  "topic": "'I need to talk to my wife/partner' -> 'If they agreed, is there anything else stopping you?' -> collect all objections first."
+ },
+ {
+  "id": 6,
+  "lesson": 19,
+  "format": "dialog",
+  "topic": "'Just tell me the price' mid-pitch -> 'I want the core ideas to be clear first. Two more minutes.' Price comes after they agree with the plan."
+ },
+ {
+  "id": 7,
+  "lesson": 7,
+  "format": "solo",
+  "topic": "Tonality: certainty in your voice sells more than the words. Statements down, not up like questions."
+ },
+ {
+  "id": 8,
+  "lesson": 4,
+  "format": "solo",
+  "topic": "Volume makes you good: 100 conversations teach you more than 10 courses. Reps beat theory."
+ },
+ {
+  "id": 9,
+  "lesson": 9,
+  "format": "dialog",
+  "topic": "Cold lead gives one-word answers -> pattern break: 'I notice short answers. I called to see if I can help. Is now a bad time?'"
+ },
+ {
+  "id": 10,
+  "lesson": 16,
+  "format": "dialog",
+  "topic": "Prospect talks for minutes about their holiday -> closer stays warm, then steers back with a question. Avoid the friend zone."
+ },
+ {
+  "id": 11,
+  "lesson": 10,
+  "format": "solo",
+  "topic": "Three levels of pain: surface problem, business impact, personal impact. People buy at level three."
+ },
+ {
+  "id": 12,
+  "lesson": 11,
+  "format": "solo",
+  "topic": "Ask where they want to be, not just what's wrong. The gap between now and goal is what they pay for."
+ },
+ {
+  "id": 13,
+  "lesson": 18,
+  "format": "dialog",
+  "topic": "'Maybe in 3-4 months' -> closer doesn't pitch, explains why it makes no sense to continue today; customer: 'Actually... could we start now?'"
+ },
+ {
+  "id": 14,
+  "lesson": 22,
+  "format": "dialog",
+  "topic": "Customer asks for 4 instalments -> closer agrees only in return for a case study and 2 referrals. Give and take."
+ },
+ {
+  "id": 15,
+  "lesson": 1,
+  "format": "solo",
+  "topic": "Mental trap: you project YOUR budget onto the customer. 'That's expensive' is often your thought, not theirs."
+ },
+ {
+  "id": 16,
+  "lesson": 12,
+  "format": "solo",
+  "topic": "Blockers: ask what stopped them from solving this before. That answer is your future objection, handle it early."
+ },
+ {
+  "id": 17,
+  "lesson": 21,
+  "format": "dialog",
+  "topic": "No objections left but no decision -> pattern interrupt: 'I'm starting to doubt this is right for you. Did I misunderstand something?'"
+ },
+ {
+  "id": 18,
+  "lesson": 23,
+  "format": "dialog",
+  "topic": "'Send me more info by email' -> 'Happy to. What specifically do you want to see, so I send the right thing?' -> real question appears."
+ },
+ {
+  "id": 19,
+  "lesson": 8,
+  "format": "solo",
+  "topic": "The 7-hour rule: people buy after roughly 7 hours of contact with you. Content builds those hours for you."
+ },
+ {
+  "id": 20,
+  "lesson": 14,
+  "format": "solo",
+  "topic": "No-shows: a short reminder the day before and a reason to show up cuts no-shows. Never chase with guilt."
+ },
+ {
+  "id": 21,
+  "lesson": 20,
+  "format": "dialog",
+  "topic": "Customer: 'Why can't I just do it myself?' -> closer explains options (alone, DIY tools, with help) and lets the customer choose the vehicle."
+ },
+ {
+  "id": 22,
+  "lesson": 17,
+  "format": "dialog",
+  "topic": "Qualifying: closer asks 'If we find the right solution today, are you in a position to start?' before pitching anything."
+ },
+ {
+  "id": 23,
+  "lesson": 6,
+  "format": "solo",
+  "topic": "Create status: be a little hard to get. Set the agenda of the call yourself in the first 30 seconds."
+ },
+ {
+  "id": 24,
+  "lesson": 24,
+  "format": "solo",
+  "topic": "After the yes: stop selling. Take payment calmly, explain next steps. Talking more after yes creates doubt."
+ },
+ {
+  "id": 25,
+  "lesson": 21,
+  "format": "dialog",
+  "topic": "Customer: 'Can you do a discount?' -> closer: 'What would a discount change for you?' -> it's not about price."
+ },
+ {
+  "id": 26,
+  "lesson": 13,
+  "format": "dialog",
+  "topic": "End of first call: closer books the meeting only if there's a real problem; disqualifies a tire-kicker politely."
+ },
+ {
+  "id": 27,
+  "lesson": 3,
+  "format": "solo",
+  "topic": "Your energy is the first thing they buy. Stand up, smile, prepare before every call."
+ },
+ {
+  "id": 28,
+  "lesson": 15,
+  "format": "solo",
+  "topic": "A script is not a cage: it's a map. Pros use a structure so they can listen instead of thinking what to say."
+ },
+ {
+  "id": 29,
+  "lesson": 23,
+  "format": "dialog",
+  "topic": "'I've been burned before by courses/agencies' -> closer acknowledges, asks what went wrong, shows how this is different with proof."
+ },
+ {
+  "id": 30,
+  "lesson": 22,
+  "format": "dialog",
+  "topic": "Down-sell: customer can't afford the full offer -> closer offers a smaller first step instead of a discount."
+ },
+ {
+  "id": 31,
+  "lesson": 2,
+  "format": "solo",
+  "topic": "Stop convincing, start diagnosing: doctors don't beg patients to take medicine."
+ },
+ {
+  "id": 32,
+  "lesson": 10,
+  "format": "solo",
+  "topic": "Ask 'What happens if nothing changes in the next 6 months?' Then stay quiet."
+ },
+ {
+  "id": 33,
+  "lesson": 19,
+  "format": "dialog",
+  "topic": "Customer doubts it works for them -> closer shows proof from someone in the same situation, not generic testimonials."
+ },
+ {
+  "id": 34,
+  "lesson": 16,
+  "format": "dialog",
+  "topic": "Closer sets the frame: 'Here's how the next 30 minutes go: I ask questions, if it fits I show you, if not I tell you. Fair?'"
+ },
+ {
+  "id": 35,
+  "lesson": 4,
+  "format": "solo",
+  "topic": "Track 3 numbers daily: conversations, offers made, yeses. What you measure improves."
+ },
+ {
+  "id": 36,
+  "lesson": 7,
+  "format": "solo",
+  "topic": "Slow down when you say the price. Fast talk sounds nervous; slow sounds certain."
+ },
+ {
+  "id": 37,
+  "lesson": 23,
+  "format": "dialog",
+  "topic": "'It's not the right time' -> 'When would be the right time, and what would be different then?'"
+ },
+ {
+  "id": 38,
+  "lesson": 18,
+  "format": "dialog",
+  "topic": "Big promise: closer summarises the customer's goal in their own words before showing the plan; customer: 'Exactly.'"
+ },
+ {
+  "id": 39,
+  "lesson": 1,
+  "format": "solo",
+  "topic": "Fear of rejection: a 'no' is information, not an insult. Ask what made it a no."
+ },
+ {
+  "id": 40,
+  "lesson": 11,
+  "format": "solo",
+  "topic": "People buy the result, not the product: sell the after-picture."
+ },
+ {
+  "id": 41,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if you could sell a house tomorrow? Real estate agents earn commission on every deal; the skill is the same 1-to-1 sale: questions, pain, offer, silence.",
+  "cover": "YOU COULD SELL A HOUSE TOMORROW?"
+ },
+ {
+  "id": 42,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if every car you've ever bought was sold to you by someone using a script? Show the 3 moves car salespeople use and how to use them yourself.",
+  "cover": "YOUR CAR WAS SOLD WITH A SCRIPT?"
+ },
+ {
+  "id": 43,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if your next raise is a sale? Asking for more money uses the same steps: value first, number once, then silence.",
+  "cover": "YOUR NEXT RAISE IS A SALE?"
+ },
+ {
+  "id": 44,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if the fastest honest way to make money is a skill, not a trick? Every business, side hustle and job interview runs on selling.",
+  "cover": "MONEY IS A SKILL, NOT A TRICK?"
+ },
+ {
+  "id": 45,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if you sold something you already own this weekend? Old phone, bike, furniture: the same steps to price it, describe the result and close.",
+  "cover": "YOU SOLD SOMETHING THIS WEEKEND?"
+ },
+ {
+  "id": 46,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if a 'no' is just the first offer? Offer loops: full price, payment plan, smaller first step; give and take.",
+  "cover": "'NO' IS JUST THE FIRST OFFER?"
+ },
+ {
+  "id": 47,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if you stopped selling the product and sold the result? Same apartment, two agents, one sells the lifestyle.",
+  "cover": "YOU SOLD THE RESULT, NOT THE THING?"
+ },
+ {
+  "id": 48,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if everything is a sale? Dating, job interviews, negotiating rent, getting a client: one skill behind all of it.",
+  "cover": "EVERYTHING IS A SALE?"
+ },
+ {
+  "id": 49,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if you could earn commission instead of a fixed salary? Sales jobs, real estate, cars, insurance: what they all reward. No income promise, results depend on work.",
+  "cover": "YOU GOT PAID PER DEAL?"
+ },
+ {
+  "id": 50,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if you called 100 people this month? Reps beat theory; track conversations, offers, yeses.",
+  "cover": "YOU MADE 100 CALLS THIS MONTH?"
+ },
+ {
+  "id": 51,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if the person who needs the deal less always wins? Status in negotiations: buying a car, renting an apartment, selling a house.",
+  "cover": "THE ONE WHO CARES LESS WINS?"
+ },
+ {
+  "id": 52,
+  "lesson": null,
+  "format": "whatif",
+  "topic": "What if you could buy cheaper too? Sales skills make you a better buyer: spot the scripts, the fake deadlines, the anchor price.",
+  "cover": "SALES SKILLS SAVE YOU MONEY?"
+ }
 ]
