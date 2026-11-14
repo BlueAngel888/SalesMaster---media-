@@ -1,6 +1,6 @@
 {
-  "next_day": 10,
-  "next_clip": 30,
+  "next_day": 11,
+  "next_clip": 34,
   "used_topic_ids": [
     1,
     2,
@@ -21,13 +21,17 @@
     17,
     16,
     18,
-    42
+    42,
+    21,
+    19,
+    22,
+    43
   ],
   "bg_day04_generated": true,
   "notes": "Clips 1-9 done by hand (days 1-3) + Dialog_test_offerloop. Automation starts at Day 4, clip 10.",
   "last_run": {
-    "date": "2026-11-13",
-    "covers_date": "2026-11-13",
-    "result": "done: Day9 clip26 doubtit (topic 17, dialog), clip27 blockers (topic 16, solo), clip28 sendmeinfo (topic 18, dialog), clip29 whatif_carscript (topic 42, whatif). Buffer TikTok: 18:07, 19:13, 20:07, 22:07. Instagram: 06:07, 20:13, 21:07, 22:07. YouTube: 11:07, 11:47, 12:23, 12:52 (all 12 accepted by Buffer)."
+    "date": "2026-11-14",
+    "covers_date": "2026-11-14",
+    "result": "in progress: Day10 clips 30-33 rendered, scheduling in Buffer"
   }
 }
